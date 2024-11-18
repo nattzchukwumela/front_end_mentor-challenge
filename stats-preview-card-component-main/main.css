@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container {
+    width: 1000px;
+    height: 400px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border: 2px solid red;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.div-2 {
+    border: 2px solid blue;
+    height: inherit;
+    background: url('./images/image-header-desktop.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.div-2 {
+    border: 2px solid green;
+}
