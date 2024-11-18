@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Poppins", serif;
 }
 
 body {
@@ -13,8 +14,8 @@ body {
 }
 
 #container {
-    width: 1000px;
-    height: 400px;
+    width: 800px;
+    height: 350px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     border: 2px solid red;
@@ -23,14 +24,55 @@ body {
 }
 
 .div-2 {
-    border: 2px solid blue;
     height: inherit;
     background: url('./images/image-header-desktop.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    flex: 2;
+
+    div {
+        width: inherit;
+        height: inherit;
+        background-color: hsla(277, 81%, 24%, 0.5);
+    }
 }
 
-.div-2 {
-    border: 2px solid green;
+.div-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: hsl(244, 38%, 16%);
+    color: #fff;
+}
+
+#highlight {
+    color: hsl(277, 64%, 61%);
+}
+
+.sub-con {
+    margin-inline: auto;
+    width: 80%;
+    margin-bottom: 20px;
+
+    h1 {
+        width: 330px;
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+
+    p {
+        width: 320px;
+        font-size: 13px;
+        color: hsl(0, 0%, 100%);
+    }
+}
+
+#points {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin-top: 30px;
+    align-items: center;
 }

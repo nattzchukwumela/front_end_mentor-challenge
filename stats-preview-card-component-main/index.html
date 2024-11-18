@@ -5,7 +5,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- displays site properly based on user's device -->
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
     <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
 
     <title>Frontend Mentor | Stats preview card component</title>
@@ -17,25 +21,30 @@
     <section id="container">
 
         <div class="div-1">
-            <h1>Get insights that help your business grow.</h1>
+            <div class="sub-con">
+                <h1>Get <span id="highlight">insights</span> that help your business grow.</h1>
 
-            <p>
-                Discover the benefits of data analytics and make better
-                decisions regarding revenue, customer experience, and
-                overall efficiency.
-            </p>
-            <div>
-                <span>10k+ companies</span>
+                <p>
+                    Discover the benefits of data analytics and make better
+                    decisions regarding revenue, customer experience, and
+                    overall efficiency.
+                </p>
             </div>
-            <div>
-                <span>314 templates</span>
-            </div>
-            <div>
-                <span> 12m+ queries </span>
+            <div id="points">
+                <div>
+                    <span>10k+ companies</span>
+                </div>
+                <div>
+                    <span>314 templates</span>
+                </div>
+                <div>
+                    <span> 12m+ queries </span>
+                </div>
             </div>
         </div>
         <div class="div-2">
             <!-- <img src="./images/image-header-desktop.jpg" alt="" /> -->
+            <div></div>
         </div>
     </section>
 
