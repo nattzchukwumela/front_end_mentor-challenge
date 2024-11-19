@@ -27,7 +27,11 @@
 
   <section class="wrapper">
     <div class="box-1">
-      <img src="./images/image-product-desktop.jpg" alt="">
+      <picture>
+        <source media="(max-width: 1440px)" srcset="./images/image-product-desktop.jpg">
+        <source media="(max-width: 767px)" srcset="./images/image-product-mobile.jpg">
+        <img src="fallback-image.jpg" alt="Image description" width="100%" height="auto">
+      </picture>
     </div>
     <div class="box-2">
       <span class="small">Perfume</span>

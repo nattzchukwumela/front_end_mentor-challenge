@@ -3,3 +3,32 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    width: 100vw;
+    height: 100vh;
+    align-content: center;
+    justify-items: center;
+    border: 2px solid blue;
+}
+
+.wrapper {
+    width: 500px;
+    border: 2px solid red;
+    display: flex;
+
+}
+
+.box-1 {
+    background: url('./images/image-product-desktop.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 50%;
+
+}
+
+.box-2 {
+    width: 50%;
+    padding: 20px;
+}
