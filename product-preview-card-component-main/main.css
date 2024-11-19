@@ -109,3 +109,20 @@ h1 {
 .btn:active {
     background-color: hsl(158, 55%, 22%);
 }
+
+@media (max-width: 720px) {
+    .wrapper {
+        flex-direction: column;
+        height: auto;
+        width: 80%;
+    }
+
+    .box-1,
+    .box-2 {
+        width: 100%;
+    }
+
+    .box-1 {
+        height: 250px;
+    }
+}
