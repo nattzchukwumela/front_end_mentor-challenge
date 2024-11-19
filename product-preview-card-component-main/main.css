@@ -53,3 +53,59 @@ h1 {
     font-size: 30px;
     margin-bottom: 10px;
 }
+
+.description {
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    color: grey;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.price-con {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    height: 60px;
+
+    .price {
+        font-family: "Fraunces", serif;
+        font-weight: 700;
+        color: hsl(158, 36%, 37%);
+        font-size: 30px;
+    }
+
+    .slashed-price {
+        font-family: "Fraunces", serif;
+        font-size: 14px;
+        color: grey;
+    }
+}
+
+.btn {
+    background-color: hsl(158, 36%, 37%);
+    width: 100%;
+    border-radius: 10px;
+    border: none;
+    height: 43px;
+    font-size: 13px;
+    font-weight: 600;
+    color: hsl(30, 38%, 92%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+    span {
+        display: block;
+    }
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+.btn:active {
+    background-color: hsl(158, 55%, 22%);
+}
